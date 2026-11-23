@@ -355,10 +355,6 @@ zabbix_export:
           key: 'perf_counter_en["\DNS\TCP Response Sent/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: traffic }]
-        - uuid: 38b724628e1441d181f3424683010076
-          name: 'DNS: 176 (Internal)'
-          key: 'perf_counter["\DNS\176"]'
-          tags: [{ tag: component, value: traffic }]
         - uuid: 38b724628e1441d181f3424683010077
           name: 'DNS: WINS Lookup Received'
           key: 'perf_counter_en["\DNS\WINS Lookup Received"]'
