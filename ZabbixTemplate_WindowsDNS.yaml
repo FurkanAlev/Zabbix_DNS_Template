@@ -58,25 +58,25 @@ zabbix_export:
           tags: [{ tag: component, value: traffic }]
         - uuid: 38b724628e1441d181f3424683010010
           name: 'DNS: Query Dropped Total/sec'
-          key: 'perf_counter["\DNS\Query Dropped Total/sec"]'
+          key: 'perf_counter_en["\DNS\Query Dropped Total/sec"]'
           value_type: FLOAT
           units: drops/s
           tags: [{ tag: component, value: security }]
         - uuid: 38b724628e1441d181f3424683010011
           name: 'DNS: Query Dropped By Response Rate Limiting/sec'
-          key: 'perf_counter["\DNS\Query Dropped By Response Rate Limiting/sec"]'
+          key: 'perf_counter_en["\DNS\Query Dropped By Response Rate Limiting/sec"]'
           value_type: FLOAT
           units: drops/s
           tags: [{ tag: component, value: security }]
         - uuid: 38b724628e1441d181f3424683010012
           name: 'DNS: Query Dropped By Policy/sec'
-          key: 'perf_counter["\DNS\Query Dropped By Policy/sec"]'
+          key: 'perf_counter_en["\DNS\Query Dropped By Policy/sec"]'
           value_type: FLOAT
           units: drops/s
           tags: [{ tag: component, value: security }]
         - uuid: 38b724628e1441d181f3424683010013
           name: 'DNS: Query Dropped Bad Socket/sec'
-          key: 'perf_counter["\DNS\Query Dropped Bad Socket/sec"]'
+          key: 'perf_counter_en["\DNS\Query Dropped Bad Socket/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: security }]
         - uuid: 38b724628e1441d181f3424683010014
@@ -85,7 +85,7 @@ zabbix_export:
           tags: [{ tag: component, value: security }]
         - uuid: 38b724628e1441d181f3424683010015
           name: 'DNS: Responses Suppressed/sec'
-          key: 'perf_counter["\DNS\Responses Suppressed/sec"]'
+          key: 'perf_counter_en["\DNS\Responses Suppressed/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: security }]
         - uuid: 38b724628e1441d181f3424683010016
@@ -125,12 +125,12 @@ zabbix_export:
           tags: [{ tag: component, value: memory }]
         - uuid: 38b724628e1441d181f3424683010024
           name: 'DNS: Virtual Bytes'
-          key: 'perf_counter["\DNS\Virtual Bytes"]'
+          key: 'perf_counter_en["\DNS\Virtual Bytes"]'
           units: B
           tags: [{ tag: component, value: memory }]
         - uuid: 38b724628e1441d181f3424683010025
           name: 'DNS: % User Time'
-          key: 'perf_counter["\DNS\% User Time"]'
+          key: 'perf_counter_en["\DNS\% User Time"]'
           value_type: FLOAT
           units: '%'
           tags: [{ tag: component, value: cpu }]
@@ -152,7 +152,7 @@ zabbix_export:
           tags: [{ tag: component, value: updates }]
         - uuid: 38b724628e1441d181f3424683010030
           name: 'DNS: Total Remote Inflight Queries'
-          key: 'perf_counter["\DNS\Total Remote Inflight Queries"]'
+          key: 'perf_counter_en["\DNS\Total Remote Inflight Queries"]'
           tags: [{ tag: component, value: performance }]
         - uuid: 38b724628e1441d181f3424683010031
           name: 'DNS: AXFR Request Received'
@@ -244,72 +244,72 @@ zabbix_export:
           tags: [{ tag: component, value: updates }]
         - uuid: 38b724628e1441d181f3424683010052
           name: 'DNS: Query Dropped Total'
-          key: 'perf_counter["\DNS\Query Dropped Total"]'
+          key: 'perf_counter_en["\DNS\Query Dropped Total"]'
           tags: [{ tag: component, value: security }]
         - uuid: 38b724628e1441d181f3424683010053
           name: 'DNS: Query Dropped Send'
-          key: 'perf_counter["\DNS\Query Dropped Send"]'
+          key: 'perf_counter_en["\DNS\Query Dropped Send"]'
           tags: [{ tag: component, value: security }]
         - uuid: 38b724628e1441d181f3424683010054
           name: 'DNS: Query Dropped Send/sec'
-          key: 'perf_counter["\DNS\Query Dropped Send/sec"]'
+          key: 'perf_counter_en["\DNS\Query Dropped Send/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: security }]
         - uuid: 38b724628e1441d181f3424683010055
           name: 'DNS: Responses Suppressed'
-          key: 'perf_counter["\DNS\Responses Suppressed"]'
+          key: 'perf_counter_en["\DNS\Responses Suppressed"]'
           tags: [{ tag: component, value: security }]
         - uuid: 38b724628e1441d181f3424683010056
           name: 'DNS: Query Dropped By Response Rate Limiting'
-          key: 'perf_counter["\DNS\Query Dropped By Response Rate Limiting"]'
+          key: 'perf_counter_en["\DNS\Query Dropped By Response Rate Limiting"]'
           tags: [{ tag: component, value: security }]
         - uuid: 38b724628e1441d181f3424683010057
           name: 'DNS: Query Dropped By Policy'
-          key: 'perf_counter["\DNS\Query Dropped By Policy"]'
+          key: 'perf_counter_en["\DNS\Query Dropped By Policy"]'
           tags: [{ tag: component, value: security }]
         - uuid: 38b724628e1441d181f3424683010058
           name: 'DNS: Async Fast Reads/sec'
-          key: 'perf_counter["\DNS\Async Fast Reads/sec"]'
+          key: 'perf_counter_en["\DNS\Async Fast Reads/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: performance }]
         - uuid: 38b724628e1441d181f3424683010059
           name: 'DNS: Data Flush Pages/sec'
-          key: 'perf_counter["\DNS\Data Flush Pages/sec"]'
+          key: 'perf_counter_en["\DNS\Data Flush Pages/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: performance }]
         - uuid: 38b724628e1441d181f3424683010060
           name: 'DNS: Data Flushes/sec'
-          key: 'perf_counter["\DNS\Data Flushes/sec"]'
+          key: 'perf_counter_en["\DNS\Data Flushes/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: performance }]
         - uuid: 38b724628e1441d181f3424683010061
           name: 'DNS: Enumerations Server/sec'
-          key: 'perf_counter["\DNS\Enumerations Server/sec"]'
+          key: 'perf_counter_en["\DNS\Enumerations Server/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: performance }]
         - uuid: 38b724628e1441d181f3424683010062
           name: 'DNS: Fast Read Not Possibles/sec'
-          key: 'perf_counter["\DNS\Fast Read Not Possibles/sec"]'
+          key: 'perf_counter_en["\DNS\Fast Read Not Possibles/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: performance }]
         - uuid: 38b724628e1441d181f3424683010063
           name: 'DNS: Fast Read Resource Misses/sec'
-          key: 'perf_counter["\DNS\Fast Read Resource Misses/sec"]'
+          key: 'perf_counter_en["\DNS\Fast Read Resource Misses/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: performance }]
         - uuid: 38b724628e1441d181f3424683010064
           name: 'DNS: Lazy Write Flushes/sec'
-          key: 'perf_counter["\DNS\Lazy Write Flushes/sec"]'
+          key: 'perf_counter_en["\DNS\Lazy Write Flushes/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: performance }]
         - uuid: 38b724628e1441d181f3424683010065
           name: 'DNS: Lazy Write Pages/sec'
-          key: 'perf_counter["\DNS\Lazy Write Pages/sec"]'
+          key: 'perf_counter_en["\DNS\Lazy Write Pages/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: performance }]
         - uuid: 38b724628e1441d181f3424683010066
           name: 'DNS: Level 2 TLB Fills/sec'
-          key: 'perf_counter["\DNS\Level 2 TLB Fills/sec"]'
+          key: 'perf_counter_en["\DNS\Level 2 TLB Fills/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: performance }]
         - uuid: 38b724628e1441d181f3424683010067
