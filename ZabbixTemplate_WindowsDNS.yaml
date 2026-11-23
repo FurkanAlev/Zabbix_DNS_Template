@@ -12,47 +12,47 @@ zabbix_export:
       items:
         - uuid: 38b724628e1441d181f3424683010001
           name: 'DNS: Total Query Received'
-          key: 'perf_counter["\DNS\Total Query Received"]'
+          key: 'perf_counter_en["\DNS\Total Query Received"]'
           tags: [{ tag: component, value: traffic }]
         - uuid: 38b724628e1441d181f3424683010002
           name: 'DNS: Total Query Received/sec'
-          key: 'perf_counter["\DNS\Total Query Received/sec"]'
+          key: 'perf_counter_en["\DNS\Total Query Received/sec"]'
           value_type: FLOAT
           units: qps
           tags: [{ tag: component, value: traffic }]
         - uuid: 38b724628e1441d181f3424683010003
           name: 'DNS: UDP Query Received'
-          key: 'perf_counter["\DNS\UDP Query Received"]'
+          key: 'perf_counter_en["\DNS\UDP Query Received"]'
           tags: [{ tag: component, value: traffic }]
         - uuid: 38b724628e1441d181f3424683010004
           name: 'DNS: UDP Query Received/sec'
-          key: 'perf_counter["\DNS\UDP Query Received/sec"]'
+          key: 'perf_counter_en["\DNS\UDP Query Received/sec"]'
           value_type: FLOAT
           units: qps
           tags: [{ tag: component, value: traffic }]
         - uuid: 38b724628e1441d181f3424683010005
           name: 'DNS: TCP Query Received'
-          key: 'perf_counter["\DNS\TCP Query Received"]'
+          key: 'perf_counter_en["\DNS\TCP Query Received"]'
           tags: [{ tag: component, value: traffic }]
         - uuid: 38b724628e1441d181f3424683010006
           name: 'DNS: TCP Query Received/sec'
-          key: 'perf_counter["\DNS\TCP Query Received/sec"]'
+          key: 'perf_counter_en["\DNS\TCP Query Received/sec"]'
           value_type: FLOAT
           units: qps
           tags: [{ tag: component, value: traffic }]
         - uuid: 38b724628e1441d181f3424683010007
           name: 'DNS: Total Response Sent'
-          key: 'perf_counter["\DNS\Total Response Sent"]'
+          key: 'perf_counter_en["\DNS\Total Response Sent"]'
           tags: [{ tag: component, value: traffic }]
         - uuid: 38b724628e1441d181f3424683010008
           name: 'DNS: Total Response Sent/sec'
-          key: 'perf_counter["\DNS\Total Response Sent/sec"]'
+          key: 'perf_counter_en["\DNS\Total Response Sent/sec"]'
           value_type: FLOAT
           units: qps
           tags: [{ tag: component, value: traffic }]
         - uuid: 38b724628e1441d181f3424683010009
           name: 'DNS: UDP Response Sent/sec'
-          key: 'perf_counter["\DNS\UDP Response Sent/sec"]'
+          key: 'perf_counter_en["\DNS\UDP Response Sent/sec"]'
           value_type: FLOAT
           units: qps
           tags: [{ tag: component, value: traffic }]
@@ -81,7 +81,7 @@ zabbix_export:
           tags: [{ tag: component, value: security }]
         - uuid: 38b724628e1441d181f3424683010014
           name: 'DNS: Unmatched Responses Received'
-          key: 'perf_counter["\DNS\Unmatched Responses Received"]'
+          key: 'perf_counter_en["\DNS\Unmatched Responses Received"]'
           tags: [{ tag: component, value: security }]
         - uuid: 38b724628e1441d181f3424683010015
           name: 'DNS: Responses Suppressed/sec'
@@ -90,37 +90,37 @@ zabbix_export:
           tags: [{ tag: component, value: security }]
         - uuid: 38b724628e1441d181f3424683010016
           name: 'DNS: Zone Transfer Failure'
-          key: 'perf_counter["\DNS\Zone Transfer Failure"]'
+          key: 'perf_counter_en["\DNS\Zone Transfer Failure"]'
           tags: [{ tag: component, value: replication }]
         - uuid: 38b724628e1441d181f3424683010017
           name: 'DNS: Zone Transfer Success'
-          key: 'perf_counter["\DNS\Zone Transfer Success"]'
+          key: 'perf_counter_en["\DNS\Zone Transfer Success"]'
           tags: [{ tag: component, value: replication }]
         - uuid: 38b724628e1441d181f3424683010018
           name: 'DNS: AXFR Success Received'
-          key: 'perf_counter["\DNS\AXFR Success Received"]'
+          key: 'perf_counter_en["\DNS\AXFR Success Received"]'
           tags: [{ tag: component, value: replication }]
         - uuid: 38b724628e1441d181f3424683010019
           name: 'DNS: IXFR Success Received'
-          key: 'perf_counter["\DNS\IXFR Success Received"]'
+          key: 'perf_counter_en["\DNS\IXFR Success Received"]'
           tags: [{ tag: component, value: replication }]
         - uuid: 38b724628e1441d181f3424683010020
           name: 'DNS: Zone Transfer SOA Request Sent'
-          key: 'perf_counter["\DNS\Zone Transfer SOA Request Sent"]'
+          key: 'perf_counter_en["\DNS\Zone Transfer SOA Request Sent"]'
           tags: [{ tag: component, value: replication }]
         - uuid: 38b724628e1441d181f3424683010021
           name: 'DNS: Database Node Memory'
-          key: 'perf_counter["\DNS\Database Node Memory"]'
+          key: 'perf_counter_en["\DNS\Database Node Memory"]'
           units: B
           tags: [{ tag: component, value: memory }]
         - uuid: 38b724628e1441d181f3424683010022
           name: 'DNS: Caching Memory'
-          key: 'perf_counter["\DNS\Caching Memory"]'
+          key: 'perf_counter_en["\DNS\Caching Memory"]'
           units: B
           tags: [{ tag: component, value: memory }]
         - uuid: 38b724628e1441d181f3424683010023
           name: 'DNS: UDP Message Memory'
-          key: 'perf_counter["\DNS\UDP Message Memory"]'
+          key: 'perf_counter_en["\DNS\UDP Message Memory"]'
           units: B
           tags: [{ tag: component, value: memory }]
         - uuid: 38b724628e1441d181f3424683010024
@@ -136,19 +136,19 @@ zabbix_export:
           tags: [{ tag: component, value: cpu }]
         - uuid: 38b724628e1441d181f3424683010026
           name: 'DNS: Recursive Query Failure'
-          key: 'perf_counter["\DNS\Recursive Query Failure"]'
+          key: 'perf_counter_en["\DNS\Recursive Query Failure"]'
           tags: [{ tag: component, value: recursion }]
         - uuid: 38b724628e1441d181f3424683010027
           name: 'DNS: Recursive Send TimeOuts'
-          key: 'perf_counter["\DNS\Recursive Send TimeOuts"]'
+          key: 'perf_counter_en["\DNS\Recursive Send TimeOuts"]'
           tags: [{ tag: component, value: recursion }]
         - uuid: 38b724628e1441d181f3424683010028
           name: 'DNS: Secure Update Failure'
-          key: 'perf_counter["\DNS\Secure Update Failure"]'
+          key: 'perf_counter_en["\DNS\Secure Update Failure"]'
           tags: [{ tag: component, value: updates }]
         - uuid: 38b724628e1441d181f3424683010029
           name: 'DNS: Dynamic Update Rejected'
-          key: 'perf_counter["\DNS\Dynamic Update Rejected"]'
+          key: 'perf_counter_en["\DNS\Dynamic Update Rejected"]'
           tags: [{ tag: component, value: updates }]
         - uuid: 38b724628e1441d181f3424683010030
           name: 'DNS: Total Remote Inflight Queries'
@@ -156,90 +156,90 @@ zabbix_export:
           tags: [{ tag: component, value: performance }]
         - uuid: 38b724628e1441d181f3424683010031
           name: 'DNS: AXFR Request Received'
-          key: 'perf_counter["\DNS\AXFR Request Received"]'
+          key: 'perf_counter_en["\DNS\AXFR Request Received"]'
           tags: [{ tag: component, value: replication }]
         - uuid: 38b724628e1441d181f3424683010032
           name: 'DNS: AXFR Request Sent'
-          key: 'perf_counter["\DNS\AXFR Request Sent"]'
+          key: 'perf_counter_en["\DNS\AXFR Request Sent"]'
           tags: [{ tag: component, value: replication }]
         - uuid: 38b724628e1441d181f3424683010033
           name: 'DNS: AXFR Response Received'
-          key: 'perf_counter["\DNS\AXFR Response Received"]'
+          key: 'perf_counter_en["\DNS\AXFR Response Received"]'
           tags: [{ tag: component, value: replication }]
         - uuid: 38b724628e1441d181f3424683010034
           name: 'DNS: AXFR Success Sent'
-          key: 'perf_counter["\DNS\AXFR Success Sent"]'
+          key: 'perf_counter_en["\DNS\AXFR Success Sent"]'
           tags: [{ tag: component, value: replication }]
         - uuid: 38b724628e1441d181f3424683010035
           name: 'DNS: IXFR Request Received'
-          key: 'perf_counter["\DNS\IXFR Request Received"]'
+          key: 'perf_counter_en["\DNS\IXFR Request Received"]'
           tags: [{ tag: component, value: replication }]
         - uuid: 38b724628e1441d181f3424683010036
           name: 'DNS: IXFR Request Sent'
-          key: 'perf_counter["\DNS\IXFR Request Sent"]'
+          key: 'perf_counter_en["\DNS\IXFR Request Sent"]'
           tags: [{ tag: component, value: replication }]
         - uuid: 38b724628e1441d181f3424683010037
           name: 'DNS: IXFR Response Received'
-          key: 'perf_counter["\DNS\IXFR Response Received"]'
+          key: 'perf_counter_en["\DNS\IXFR Response Received"]'
           tags: [{ tag: component, value: replication }]
         - uuid: 38b724628e1441d181f3424683010038
           name: 'DNS: IXFR Success Sent'
-          key: 'perf_counter["\DNS\IXFR Success Sent"]'
+          key: 'perf_counter_en["\DNS\IXFR Success Sent"]'
           tags: [{ tag: component, value: replication }]
         - uuid: 38b724628e1441d181f3424683010039
           name: 'DNS: IXFR TCP Success Received'
-          key: 'perf_counter["\DNS\IXFR TCP Success Received"]'
+          key: 'perf_counter_en["\DNS\IXFR TCP Success Received"]'
           tags: [{ tag: component, value: replication }]
         - uuid: 38b724628e1441d181f3424683010040
           name: 'DNS: IXFR UDP Success Received'
-          key: 'perf_counter["\DNS\IXFR UDP Success Received"]'
+          key: 'perf_counter_en["\DNS\IXFR UDP Success Received"]'
           tags: [{ tag: component, value: replication }]
         - uuid: 38b724628e1441d181f3424683010041
           name: 'DNS: Notify Received'
-          key: 'perf_counter["\DNS\Notify Received"]'
+          key: 'perf_counter_en["\DNS\Notify Received"]'
           tags: [{ tag: component, value: replication }]
         - uuid: 38b724628e1441d181f3424683010042
           name: 'DNS: Notify Sent'
-          key: 'perf_counter["\DNS\Notify Sent"]'
+          key: 'perf_counter_en["\DNS\Notify Sent"]'
           tags: [{ tag: component, value: replication }]
         - uuid: 38b724628e1441d181f3424683010043
           name: 'DNS: Zone Transfer Request Received'
-          key: 'perf_counter["\DNS\Zone Transfer Request Received"]'
+          key: 'perf_counter_en["\DNS\Zone Transfer Request Received"]'
           tags: [{ tag: component, value: replication }]
         - uuid: 38b724628e1441d181f3424683010044
           name: 'DNS: Dynamic Update NoOperation'
-          key: 'perf_counter["\DNS\Dynamic Update NoOperation"]'
+          key: 'perf_counter_en["\DNS\Dynamic Update NoOperation"]'
           tags: [{ tag: component, value: updates }]
         - uuid: 38b724628e1441d181f3424683010045
           name: 'DNS: Dynamic Update NoOperation/sec'
-          key: 'perf_counter["\DNS\Dynamic Update NoOperation/sec"]'
+          key: 'perf_counter_en["\DNS\Dynamic Update NoOperation/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: updates }]
         - uuid: 38b724628e1441d181f3424683010046
           name: 'DNS: Dynamic Update Queued'
-          key: 'perf_counter["\DNS\Dynamic Update Queued"]'
+          key: 'perf_counter_en["\DNS\Dynamic Update Queued"]'
           tags: [{ tag: component, value: updates }]
         - uuid: 38b724628e1441d181f3424683010047
           name: 'DNS: Dynamic Update Received/sec'
-          key: 'perf_counter["\DNS\Dynamic Update Received/sec"]'
+          key: 'perf_counter_en["\DNS\Dynamic Update Received/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: updates }]
         - uuid: 38b724628e1441d181f3424683010048
           name: 'DNS: Dynamic Update Written to Database'
-          key: 'perf_counter["\DNS\Dynamic Update Written to Database"]'
+          key: 'perf_counter_en["\DNS\Dynamic Update Written to Database"]'
           tags: [{ tag: component, value: updates }]
         - uuid: 38b724628e1441d181f3424683010049
           name: 'DNS: Dynamic Update Written to Database/sec'
-          key: 'perf_counter["\DNS\Dynamic Update Written to Database/sec"]'
+          key: 'perf_counter_en["\DNS\Dynamic Update Written to Database/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: updates }]
         - uuid: 38b724628e1441d181f3424683010050
           name: 'DNS: Secure Update Received'
-          key: 'perf_counter["\DNS\Secure Update Received"]'
+          key: 'perf_counter_en["\DNS\Secure Update Received"]'
           tags: [{ tag: component, value: updates }]
         - uuid: 38b724628e1441d181f3424683010051
           name: 'DNS: Secure Update Received/sec'
-          key: 'perf_counter["\DNS\Secure Update Received/sec"]'
+          key: 'perf_counter_en["\DNS\Secure Update Received/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: updates }]
         - uuid: 38b724628e1441d181f3424683010052
@@ -314,45 +314,45 @@ zabbix_export:
           tags: [{ tag: component, value: performance }]
         - uuid: 38b724628e1441d181f3424683010067
           name: 'DNS: Nbstat Memory'
-          key: 'perf_counter["\DNS\Nbstat Memory"]'
+          key: 'perf_counter_en["\DNS\Nbstat Memory"]'
           units: B
           tags: [{ tag: component, value: memory }]
         - uuid: 38b724628e1441d181f3424683010068
           name: 'DNS: Record Flow Memory'
-          key: 'perf_counter["\DNS\Record Flow Memory"]'
+          key: 'perf_counter_en["\DNS\Record Flow Memory"]'
           units: B
           tags: [{ tag: component, value: memory }]
         - uuid: 38b724628e1441d181f3424683010069
           name: 'DNS: TCP Message Memory'
-          key: 'perf_counter["\DNS\TCP Message Memory"]'
+          key: 'perf_counter_en["\DNS\TCP Message Memory"]'
           units: B
           tags: [{ tag: component, value: memory }]
         - uuid: 38b724628e1441d181f3424683010070
           name: 'DNS: Recursive Queries'
-          key: 'perf_counter["\DNS\Recursive Queries"]'
+          key: 'perf_counter_en["\DNS\Recursive Queries"]'
           tags: [{ tag: component, value: traffic }]
         - uuid: 38b724628e1441d181f3424683010071
           name: 'DNS: Recursive Queries/sec'
-          key: 'perf_counter["\DNS\Recursive Queries/sec"]'
+          key: 'perf_counter_en["\DNS\Recursive Queries/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: traffic }]
         - uuid: 38b724628e1441d181f3424683010072
           name: 'DNS: Recursive Query Failure/sec'
-          key: 'perf_counter["\DNS\Recursive Query Failure/sec"]'
+          key: 'perf_counter_en["\DNS\Recursive Query Failure/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: traffic }]
         - uuid: 38b724628e1441d181f3424683010073
           name: 'DNS: Recursive TimeOut/sec'
-          key: 'perf_counter["\DNS\Recursive TimeOut/sec"]'
+          key: 'perf_counter_en["\DNS\Recursive TimeOut/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: traffic }]
         - uuid: 38b724628e1441d181f3424683010074
           name: 'DNS: TCP Response Sent'
-          key: 'perf_counter["\DNS\TCP Response Sent"]'
+          key: 'perf_counter_en["\DNS\TCP Response Sent"]'
           tags: [{ tag: component, value: traffic }]
         - uuid: 38b724628e1441d181f3424683010075
           name: 'DNS: TCP Response Sent/sec'
-          key: 'perf_counter["\DNS\TCP Response Sent/sec"]'
+          key: 'perf_counter_en["\DNS\TCP Response Sent/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: traffic }]
         - uuid: 38b724628e1441d181f3424683010076
@@ -361,37 +361,37 @@ zabbix_export:
           tags: [{ tag: component, value: traffic }]
         - uuid: 38b724628e1441d181f3424683010077
           name: 'DNS: WINS Lookup Received'
-          key: 'perf_counter["\DNS\WINS Lookup Received"]'
+          key: 'perf_counter_en["\DNS\WINS Lookup Received"]'
           tags: [{ tag: component, value: wins }]
         - uuid: 38b724628e1441d181f3424683010078
           name: 'DNS: WINS Lookup Received/sec'
-          key: 'perf_counter["\DNS\WINS Lookup Received/sec"]'
+          key: 'perf_counter_en["\DNS\WINS Lookup Received/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: wins }]
         - uuid: 38b724628e1441d181f3424683010079
           name: 'DNS: WINS Response Sent'
-          key: 'perf_counter["\DNS\WINS Response Sent"]'
+          key: 'perf_counter_en["\DNS\WINS Response Sent"]'
           tags: [{ tag: component, value: wins }]
         - uuid: 38b724628e1441d181f3424683010080
           name: 'DNS: WINS Response Sent/sec'
-          key: 'perf_counter["\DNS\WINS Response Sent/sec"]'
+          key: 'perf_counter_en["\DNS\WINS Response Sent/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: wins }]
         - uuid: 38b724628e1441d181f3424683010081
           name: 'DNS: WINS Reverse Lookup Received'
-          key: 'perf_counter["\DNS\WINS Reverse Lookup Received"]'
+          key: 'perf_counter_en["\DNS\WINS Reverse Lookup Received"]'
           tags: [{ tag: component, value: wins }]
         - uuid: 38b724628e1441d181f3424683010082
           name: 'DNS: WINS Reverse Lookup Received/sec'
-          key: 'perf_counter["\DNS\WINS Reverse Lookup Received/sec"]'
+          key: 'perf_counter_en["\DNS\WINS Reverse Lookup Received/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: wins }]
         - uuid: 38b724628e1441d181f3424683010083
           name: 'DNS: WINS Reverse Response Sent'
-          key: 'perf_counter["\DNS\WINS Reverse Response Sent"]'
+          key: 'perf_counter_en["\DNS\WINS Reverse Response Sent"]'
           tags: [{ tag: component, value: wins }]
         - uuid: 38b724628e1441d181f3424683010084
           name: 'DNS: WINS Reverse Response Sent/sec'
-          key: 'perf_counter["\DNS\WINS Reverse Response Sent/sec"]'
+          key: 'perf_counter_en["\DNS\WINS Reverse Response Sent/sec"]'
           value_type: FLOAT
           tags: [{ tag: component, value: wins }]
