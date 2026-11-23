@@ -23,7 +23,7 @@ This repository contains a comprehensive Zabbix 7.4+ template optimized for deep
 
 🛠 Installation
 
-    - Download the template_WindowsDNS.yaml file.
+    - Download the ZabbixTemplate_WindowsDNS.yaml file.
     - In the Zabbix Web UI, navigate to Data Collection -> Templates -> Import.
     - Select the downloaded file and click Import.
     - Navigate to your Windows Host and link this template.
@@ -50,7 +50,7 @@ Bu repo, Windows DNS Server performansını derinlemesine izlemek için optimize
 
 🛠 Kurulum
 
-    - template_WindowsDNS.yaml dosyasını indirin.
+    - ZabbixTemplate_WindowsDNS.yaml dosyasını indirin.
     - Zabbix arayüzünde Data Collection -> Templates -> Import adımlarını izleyin.
     - Dosyayı seçin ve içe aktarın.
     - İlgili Windows Host'unuza gidin ve bu şablonu (Template) bağlayın (Link).
