@@ -11,7 +11,7 @@ This repository contains a comprehensive Zabbix 7.4+ template optimized for deep
 🌟 Key Features
 
     - Broad Metric Coverage: 80+ Performance Counters included.
-    - Zabbix 7.4 Compatibility: Fully compliant with UUIDv4 standards and provided in YAML format.
+    - Zabbix 7.4+ Compatibility: Fully compliant with UUIDv4 standards and provided in YAML format.
     - Smart Grouping: Metrics are logically tagged as Traffic, Security, Replication, Memory, and Updates for streamlined monitoring.
 
 📊 Monitored Categories
@@ -38,7 +38,7 @@ Bu repo, Windows DNS Server performansını derinlemesine izlemek için optimize
 🌟 Önemli Özellikler
 
     - Geniş Metrik Kapsamı: 80+ performans sayacı (Performance Counters).
-    - Zabbix 7.4 Uyumluluğu: UUIDv4 standartlarına tam uyumlu ve YAML formatında.
+    - Zabbix 7.4+ Uyumluluğu: UUIDv4 standartlarına tam uyumlu ve YAML formatında.
     - Akıllı Gruplandırma: Metrikler; Traffic, Security, Replication, Memory ve Updates olarak tag'lenmiştir.
 
 📊 İzlenen Kategoriler
